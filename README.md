@@ -1,4 +1,4 @@
-# video-editing-programmable
+# programmable-video-editing
 Tools and resources to edit videos programmetically
 
 1. [autocut: Cut video at specified timestamps](/autocut.sh)
