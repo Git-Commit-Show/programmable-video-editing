@@ -1,4 +1,6 @@
 # Programmable video editing
+## Scripts, tools and resources to automate video editing
+
 Scripts, tools and resources to automate video editing
 
 
