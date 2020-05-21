@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#use this bash script to cut videos using ffmpege by running : autocut filename timestamp1 timestamp2 timestamp 3 ...  (timestamp : hh:mm)
+# Cut videos using ffmpeg
+# Usage: autocut filename timestamp1 timestamp2 timestamp 3 ...  (timestamp : hh:mm)
 
 echo "$# parameters found"
 
