@@ -14,7 +14,7 @@
 2. Open `~/.bashrc`  with command `sudo gedit ~/.bashrc`
 3. Append the content of the script (e.g. content of autocut script) to `~/.bashrc` inside a function as follows
 ```
-function autocut() {
+autocut() {
   #Content of autocut script goes here
 }
 ```
