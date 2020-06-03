@@ -49,6 +49,7 @@ The dirty way
 
 ### References
 
+0. [Learn ffmpeg the hard way](https://github.com/leandromoreira/ffmpeg-libav-tutorial)
 1. [ffmpeg for social media](https://medium.com/abraia/basic-video-editing-for-social-media-with-ffmpeg-commands-1e873801659)
 2. [awesome-ffmpeg](https://github.com/transitive-bullshit/awesome-ffmpeg)
 3. [editly : minimal command line video editing](https://github.com/mifi/editly) 
