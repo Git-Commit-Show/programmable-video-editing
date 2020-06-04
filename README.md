@@ -4,9 +4,10 @@
 ### Scripts
 
 1. [autocut: Cut video at specified timestamps](/autocut.sh)  `autocut infile timestamp1 timestamp2 ...`
-2. [combinevideos: Combine multiple videos into one](/combinevideos.sh) `combinevideos fileList.txt`
-3. [recordscreen: Record screen using ffmpeg](/recordscreen.sh) `recordscreen`
-4. [removeduplicateframes: Reduce frame rate and size by removing duplicate frames](/removeduplicateframes.sh) `removeduplicateframes mybigvideofile.mp4`
+2. [combine: Combine multiple videos into one - quite slow but it doesn't have audio/video sync issue](/combine.sh) `combine fileList.txt`
+3. [combinevideos: Combine multiple videos into one (fast but works only when all files format, timescale and fps are same)](/combinevideos.sh) `combinevideos fileList.txt`
+4. [recordscreen: Record screen using ffmpeg](/recordscreen.sh) `recordscreen`
+5. [removeduplicateframes: Reduce frame rate and size by removing duplicate frames](/removeduplicateframes.sh) `removeduplicateframes mybigvideofile.mp4`
 
 **How to use scripts on linux**
 
