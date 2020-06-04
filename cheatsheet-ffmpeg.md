@@ -63,3 +63,4 @@ The dirty way
 11. [preset ffmpeg](http://ffmpeg.org/ffmpeg.html#Preset-files)
 12. [.ass subtitles ffmpeg](http://ffmpeg.org/ffmpeg.html#ass)
 13. [ffmpeg cheatsheet by steven2358](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730)
+14. [Adding subtitle to the video](https://video.stackexchange.com/a/14788/30092)
