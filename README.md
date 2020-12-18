@@ -20,4 +20,7 @@ autocut() {
 }
 ```
 3. Run `source ~/.bashrc`
-4. Now you will be able to run the command `autocut infilepath timestamp1 timestamp2`
+4. Now you will be able to run the command such as `autocut infilepath timestamp1 timestamp2`
+
+Now, get started with your main source video file and make the first cut by creating a text file such as [this one](./cut_config_sample.md).
+Use simple ffmpeg commands to pick one part, use `autocut` to make multiple cuts Use `combine` to combine selected cuts. In the end, use `removeduplicatefreames` to reduce the size of the final video.
