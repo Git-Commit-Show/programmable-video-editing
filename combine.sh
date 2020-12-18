@@ -3,18 +3,20 @@
 # Structure of file_containing_list_of_files.txt is as follows \/
 # file myfile1.mp4
 # file myfile2.mp4 ...
-## How it works
-## 1. Convert videos to intermediary format(Quicktime container MTS)
+# Output: New file will be created with the name combined2files_myfile1_myfile2.mp4
+
+## A summary of how it works under the hood
+## 1. Converts videos to intermediary format(Quicktime container MTS)
 ## ffmpeg -i clip.flv -q 0 clip.MTS
 ## ffmpeg -i intro.flv -q 0 intro.MTS
 ## ffmpeg -i outro.flv -q 0 outro.MTS
-## 2. Combine these videos
+## 2. Combines these videos
 ## //filesToJoin.tx : file intro.MTS \n file clip.MTS \n file outro.MTS
 ## ffmpeg -f concat -i filesToJoin.txt -c copy output.MTS
 ## 3. ffmpeg -f concat -i filesToJoin.txt -c copy output.MTS
 ## 4. Convert format of output.MTS to .mp4
 ## ffmpeg -i output.MTS -q 0 intro.mp4
-# Output: New file will be created with the name combined2files_myfile1_myfile2.mp4
+
 FILE_LIST=$1
 filescount=$(wc -l $FILE_LIST | awk '{ print $1 }')
 finalfilepath="combined${filescount}files"
